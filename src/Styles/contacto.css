@@ -1,0 +1,73 @@
+
+.section-form{
+    
+    background-color:#361626aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+}
+
+
+.container {
+    
+    background-color: #361626aa;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.377);
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.title-contact {
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-primary-2);
+}
+
+#contact-form {
+
+    font-family: "Raleway", sans-serif;
+    color: var(--color-primary-5);
+}
+
+.form-group {
+
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

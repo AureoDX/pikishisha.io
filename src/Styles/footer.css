@@ -1,0 +1,131 @@
+.footer{
+
+    color: var(--color-primary-2);
+    letter-spacing: 1px;
+    
+    }
+    
+    .div-footer-conteudo {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #000000cd;
+    padding: 3rem 3.5rem;
+    
+    }
+    
+    .footer-list{
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 0.75rem;
+        list-style: none;
+        padding: 0;
+        
+        }
+    
+    .footer-list strong {
+    
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-bottom: 0.75rem;
+        
+    }
+    
+    .footer-list p{
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.853);
+    
+    }
+    
+    .footer-list i {
+    
+    color: rgba(255, 255, 255, 0.853);
+    
+    }
+    
+    .footer-Copy {
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000cd;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    
+    }
+    
+    .btn-whatsapp img{
+    
+    position: fixed;
+    right: 24px;
+    bottom: 14px;
+    max-width: 74px;
+    transition: transform 0.4s;
+    }
+    
+    .btn-whatsapp img:hover {
+    
+    transform: scale(1.1);
+    
+    }
+    
+    @media  screen and (max-width: 848px) {
+      
+        .div-footer-conteudo {
+          
+            grid-template-columns: repeat(2,1fr);
+            display: flex;
+            flex-wrap: 30px;
+            gap: 14px;
+              
+            }
+    
+            .btn-whatsapp img{
+    
+                max-width: 64px;
+                
+                }
+         }
+    
+         @media  screen and (max-width: 760px) {    
+       
+            .div-footer-conteudo {
+          
+               flex-direction: column;
+                
+                }
+
+            .footer-list i {
+            
+            font-size: 1rem;
+             }
+    
+            .footer-list p {
+            
+            font-size: 1rem;
+            
+             }
+    
+            .footer-Copy {
+            
+            text-align: center;
+             }
+    
+             .btn-whatsapp img{
+    
+                max-width: 64px;
+                
+                }
+                     
+            }

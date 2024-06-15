@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;800;900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('fundo.css');
+@import url('header.css');
+@import url('sobre.css');
+@import url('main.css');
+@import url('serviço.css');
+@import url('aluguer.css');
+@import url('contacto.css');
+@import url('footer.css');
+
+:root {
+
+  --color-primary-1: #de753c;
+  --color-primary-2: #eac96c;
+  --color-primary-3: #f50e76;
+  --color-primary-4: #ffffff;
+  --color-primary-5: #b14676;
+
+}
+ 
+  * {
+
+     font-family: "Montserrat Alternates", sans-serif;
+     font-weight: 800;
+     font-style: normal;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+
+    background-color:var(--color-primary-5);
+
+  }
+
+  a{
+    
+    text-decoration: none;
+    cursor: pointer; 
+     
+  }
+  
+   a:hover {
+    
+    background-color: var(--color-primary-4);
+    
+  }
+
+  .div-icon i {
+  
+    width: 40px;
+    font-size: 30px;
+    color: var(--color-primary-4);
+    transition: color .3s ease;
+    cursor: pointer;
+  }
+  
+  .div-icon i:hover {
+  
+  color: var(--color-primary-3);
+  
+  }
+
+  .title {
+
+    margin: 9px;
+    color: var(--color-primary-2);
+    text-align: center;
+    line-height: 250%;
+    max-height: 940px;
+    font-size: 2rem;
+    padding: 60px;  
+    
+     }

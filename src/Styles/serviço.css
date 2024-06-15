@@ -1,0 +1,170 @@
+.serviços {
+
+    width: 100%;
+    background-color:#361626;
+   
+    color: var(--color-primary-2);
+   
+    opacity: .9;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 14px;
+    
+    }
+  
+    .serviço-conteudo h2 {
+    
+   
+    text-align: center;
+    font-size: 38px;
+    margin-top: 14px;
+    
+    }
+    .serviço-conteudo p {
+
+    font-family: "Raleway", sans-serif; 
+    font-size: 1.5rem;
+    color: white;
+    line-height: 150%;
+    margin: 30px;
+    text-align: center;
+    max-width: 780px;
+    
+    }
+    
+    .div-info  {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    
+    
+    }
+
+    .div-info strong {
+    
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    }
+    
+    .div-produtos  {
+    
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 18px;
+       padding: 0 44px 34px 44px;
+             
+        }
+
+    .div-shishas  {
+    
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--color-primary-5);
+      border-radius: 8px;
+      box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.623);
+      overflow: hidden;
+
+        }
+        
+         .dish-discreção {
+
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          text-align: center;
+          line-height: 2rem;
+          margin-top: 0px;
+          color: #ffffffd7;   
+           
+            } 
+
+         .dish-price { 
+
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 15px 10px;
+        
+       
+            } 
+
+         .dish-price h4 {  
+
+          text-align: center;
+          font-weight: 600;
+          
+       
+          gap: 20px;
+       
+            }
+        
+        .div-shishas img {
+
+            width: 100%;
+            max-width: 340px;
+            transition: transform 0.5s;  
+        }
+    
+        .div-shishas img:hover {
+        
+            transform: scale(1.1);
+            z-index: 1;
+            }
+
+        @media  screen and (max-width: 820px) {
+      
+            .div-produtos
+             {
+           
+              flex-direction: column;
+              
+             }
+
+             .serviço-conteudo h2 {
+    
+              font-size: 35px;  
+              
+              }
+
+             .serviço-conteudo p {
+    
+              font-size: 23px;
+              text-align: center; 
+              
+              }
+         
+             .div-shishas img {
+         
+                 max-width: 500px;
+              
+              } 
+    
+              .div-shishas img {
+    
+                transition: transform 0.3s;  
+            }
+        
+            .div-shishas img:hover {
+            
+                transform: scale(1.1);
+                z-index: 1;
+                }
+
+                .dish-price { 
+ 
+                  flex-direction: column;            
+               
+                } 
+
+             }
+    
+    
